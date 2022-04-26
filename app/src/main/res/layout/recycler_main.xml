@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp">
+
+        <!---->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            android:elevation="0dp">
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_wide"/>
+<!--            <ImageView-->
+<!--                android:id="@+id/iv_image2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/button_start"-->
+<!--                android:minHeight="200dp"-->
+<!--                android:maxHeight="300dp"-->
+<!--                android:scaleType="centerCrop"-->
+<!--                android:visibility="gone"/>-->
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/tv_happenplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HAPPEN PLACE"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@id/cv"
+            android:paddingHorizontal="8dp"
+            android:paddingTop="4dp"/>
+        <TextView
+            android:id="@+id/tv_happendate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HAPPEN DATE"
+            android:textStyle="bold"
+            android:layout_below="@id/tv_happenplace"
+            android:paddingHorizontal="8dp"
+            android:gravity="right"/>
+
+</RelativeLayout>

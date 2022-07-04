@@ -40,7 +40,7 @@ public class HomeFragment extends Fragment {
         binding.pager.setAdapter(homePagerAdapter);
 
         //탭 설정, 페이저 연결
-        String[] tabTitle = {"설정 1", "설정 2", "설정 3"};
+        String[] tabTitle = {"보기 1", "보기 2", "보기 3"};
         new TabLayoutMediator(binding.layoutTab, binding.pager, new TabLayoutMediator.TabConfigurationStrategy() {
             @Override
             public void onConfigureTab(@NonNull TabLayout.Tab tab, int position) {

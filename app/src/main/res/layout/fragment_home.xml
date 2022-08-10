@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlways"
             android:background="@color/transparent10"
+            app:tabSelectedTextColor="@color/black"
             />
     </com.google.android.material.appbar.AppBarLayout>
 

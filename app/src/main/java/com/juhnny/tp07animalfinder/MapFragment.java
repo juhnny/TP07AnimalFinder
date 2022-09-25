@@ -55,7 +55,7 @@ public class MapFragment extends Fragment {
         G.shelters.add(new Shelter("보호소1"));
 
         mainActivity = (MainActivity) getActivity();
-        mainActivity.setSupportActionBar(binding.toolbar);
+//        mainActivity.setSupportActionBar(binding.toolbar);
 
         shelterAdapter = new ShelterAdapter(mainActivity);
         binding.recycler.setAdapter(shelterAdapter);

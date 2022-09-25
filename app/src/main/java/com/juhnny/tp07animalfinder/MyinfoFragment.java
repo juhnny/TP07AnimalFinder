@@ -59,7 +59,7 @@ public class MyinfoFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         mainActivity = (MainActivity) getActivity();
-        mainActivity.setSupportActionBar(b.toolbar);
+//        mainActivity.setSupportActionBar(b.toolbar);
 
         //전단지 비율 조절 - A4 비율
         Display display = mainActivity.getWindowManager().getDefaultDisplay();
